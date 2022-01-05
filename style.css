@@ -6,13 +6,27 @@
 .container {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
+
 .flexible {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* focus part start */
+.header-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-line {
+  width: 5px;
+  border-radius: 8px;
+  height: 128px;
+  background-image: linear-gradient(#ffad5a, #ff5959);
+  margin-right: 45px;
+}
 .text-part {
   width: 50%;
   margin-top: 10%;
@@ -21,11 +35,12 @@
   font-size: 60px;
   font-weight: 500;
   font-family: "Yeseva One", cursive;
-  margin-bottom: 15px;
+  padding: 8px 0;
 }
 .text-part-para {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  margin-top: 30px;
   color: #726f6f;
 }
 .text-color {
@@ -47,4 +62,46 @@
   padding: 15px 40px;
   background-color: #ffad5a;
   color: rgb(250, 248, 246);
+}
+/* mission part start */
+.mission-para {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  width: 32%;
+  border-radius: 15px;
+  text-align: left;
+  padding: 13px 20px;
+  box-shadow: -9px -1px 23px -31px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 141px;
+}
+.card h4 {
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.card p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #424242;
+}
+.mission-color {
+  background-color: #bfdde0;
+}
+.vission-color {
+  background-color: #e7cdcd;
+}
+.goals-color {
+  background-color: #fff4d6;
 }
