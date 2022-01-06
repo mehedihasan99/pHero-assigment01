@@ -9,7 +9,7 @@
   margin-bottom: 80px;
 }
 h2,
-h3,
+h4,
 p,
 a {
   font-family: "Poppins", sans-serif;
@@ -74,6 +74,7 @@ p {
 .mission-para {
   font-size: 48px;
   text-align: center;
+  margin-bottom: 40px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
 }
@@ -87,7 +88,7 @@ p {
   width: 32%;
   border-radius: 15px;
   text-align: left;
-  padding: 13px 20px;
+  padding: 13px 25px;
   box-shadow: -9px -1px 23px -31px rgba(0, 0, 0, 0.1);
 }
 .card img {
@@ -150,4 +151,24 @@ p {
   background-position: right;
   background-position-y: 230px;
   background-position-x: 90%;
+}
+/* footer start */
+footer {
+  background: #0b0d17;
+  padding: 2%;
+}
+.footer-div {
+  text-align: center;
+}
+.footer-header {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-text-color {
+  color: white;
+}
+.footer-para {
+  font-style: italic;
 }
